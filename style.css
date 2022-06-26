@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family:'Sofia', cursive;
+}
+#container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+
+}
+.header {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display:inline-block;
+    color:#000;
+
+
+}
+nav ul li a:hover{
+    background-color: #ee82ee;
+    color:#fff;
+
+}
+section{
+    min-height:500px;
+    text-align: center;
+}
+
+footer{
+    
+    display: flex;
+    justify-content: center;
+    min-height: 20px;
+}
+figure{
+    display: inline-block;
+    background-color: #ee82ee;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    opacity: 0.8;
+    width: 300px;
+}
+figure figcaption a{
+    color: #000;
+    text-decoration: none;
+}
+.background{
+    background-image: url(Imagens/yearbook_background_3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
